@@ -1,0 +1,15 @@
+mat-toolbar {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  mat-card {
+    margin: 16px 0;
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+  }

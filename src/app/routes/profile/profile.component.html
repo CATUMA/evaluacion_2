@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <span>Perfil de Usuario</span>
+    <span class="spacer"></span>
+    <button mat-raised-button color="warn" (click)="logout()">Cerrar Sesión</button>
+  </mat-toolbar>
+  
+  <mat-card class="profile-card">
+    <mat-card-header>
+      <mat-card-title>Bienvenido</mat-card-title>
+      <mat-card-subtitle>{{ usuario }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>Esta es tu página de perfil. Aquí puedes ver tu información personal.</p>
+    </mat-card-content>
+  </mat-card>

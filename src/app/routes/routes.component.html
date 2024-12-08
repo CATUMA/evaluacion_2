@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My Gym</span>
+    &nbsp;&nbsp;&nbsp;
+    <button mat-raised-button (click)="irOpcionHome()" >Home</button>&nbsp;
+    <button mat-raised-button (click)="irOpcionLogin()">Login</button>&nbsp;
+    <button mat-raised-button (click)="irOpcionPerfil()">Perfil</button>
+    <span class="example-spacer"></span>
+    <button (click)="logout()" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>power_settings_new</mat-icon>
+    </button>
+</mat-toolbar>  
+<hr />
+<router-outlet></router-outlet>

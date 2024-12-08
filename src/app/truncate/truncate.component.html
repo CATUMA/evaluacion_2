@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+    <span>Ejemplo de Truncate Pipe</span>
+  </mat-toolbar>
+  
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Texto Original</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Este es un texto muy largo que debería ser truncado para no ocupar demasiado espacio.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Texto Truncado</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{ 'Este es un texto muy largo que debería ser truncado para no ocupar demasiado espacio.' | truncate:30 }}
+      </p>
+    </mat-card-content>
+  </mat-card>
